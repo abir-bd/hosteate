@@ -1,0 +1,110 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+	outline: none;
+}
+/* fonts */
+@font-face {
+    font-family: akira;
+    src: url(../vendor/fonts/Akira\ Expanded\ Demo.otf);
+  }
+
+
+
+body{
+    background: linear-gradient(180deg, #000000 0%, #161616 100%);
+    height: 100vh;
+}
+
+/* common menu css start */
+.navbar{
+    margin: 12px 0;
+}
+.common-menu {
+    padding: 6px 6px;
+    border-radius: 30px;
+    background: #1B1B1B;
+    border: 1px solid #353535
+
+}
+.common-menu li{
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.common-menu li a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #CBCBCC;
+}
+.common-menu li:hover{
+    background: linear-gradient(16.26deg, #173CFF 19.46%, #3139C0 55.44%);
+    box-shadow: 0px 2px 30px 0px #173CFFCC;
+}
+.common-menu li:hover a{
+    color: #FFFFFF!important;
+}
+/* common menu css end */
+
+/* mis facturas */
+.mis-title{
+    font-family: akira;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.mis-input {
+    background: #1B1B1B;
+    border: 1px solid #353535;
+    border-radius: 30px;
+    padding: 14px 10px;
+    margin-left: 20%;
+}
+.mis-input input {
+    border: none;
+    background: transparent;
+    width: 80%;
+    color: #FFFFFF;
+}
+.mis-input img{
+    padding: 0 5px;
+}
+/* mis facturas end */
